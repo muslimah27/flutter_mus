@@ -110,7 +110,54 @@ void main() {
   var s = hitungNilai2(matkul1 : 80, matkul2 : 5);
   print(s);
   hitungNilai3(90, 95);
+
+// final keyword => imutable / tdk bisa diubah
+// const final
+// const
+// const String mhs = "Muslimah";
+// final
+  final String mhsfk = "Muslimah";
+
+  print(mhsfk);
+
+// null safety
+// ? ! late
+// ? => digunakan dia boleh null\
+// String? jurusan;
+// untuk diisi nanti
+  late String jurusanns ;
+
+  jurusanns = "Teknik Informatika";
+
+// jurusan = "TI";
+// memaksa untuk dijalankan / yakin ada datanya => !
+  print(jurusanns.length);
+
+// Perulangan Looping 
+  for(int no = 1; no <= 5; no ++){
+    print(no);
+  }
+// for minus
+  for(int no = 5; no >= 1; no --){
+    print(no);
+  }
+// while
+  int no1 = 1;
+  int no2 = 5;
+  while(no1 <= no2){
+    print(no1);
+    no1++;
+  }
+// do while 
+  int no3 = 1;
+  int no4 = 5;
+  do{
+    print(no3);
+    no3++;
+  }while(no3 <= no4);
 }
+
+
 
 //Function
 hitungNilai(){
