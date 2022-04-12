@@ -121,11 +121,12 @@ void main() {
   print(mhsfk);
 
 // null safety
-// ? ! late
-// ? => digunakan dia boleh null\
+// late ? !
+// digunakan dia boleh null => ?
 // String? jurusan;
 // untuk diisi nanti
-  late String jurusanns ;
+// punten pak seharusnya disini ada late tapi vscode saya ga bisa klo di dartpad bisa, vscodenya habis dinstal ulang hehe
+  String jurusanns;
 
   jurusanns = "Teknik Informatika";
 
